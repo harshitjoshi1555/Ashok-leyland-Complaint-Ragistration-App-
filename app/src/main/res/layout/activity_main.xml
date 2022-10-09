@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/appbackground"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="-110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ashokleyland" />
+
+    <EditText
+        android:id="@+id/ed_unm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee ID"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/ed_fnm"
+        android:layout_width="match_parent"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Employee Issue" />
+
+    <EditText
+        android:id="@+id/ed_prof"
+        android:layout_width="match_parent"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Employee Feedback" />
+
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Employee Phone No"
+        android:inputType="phone"/>
+
+    <Button
+        android:onClick="addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Save" />
+
+
+
+
+    <!-- <Button
+         android:onClick="getUserData"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="0dp"
+         android:text="Save" />-->
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582596359950",
+    "project_id": "registeration-page-f76c8",
+    "storage_bucket": "registeration-page-f76c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582596359950:android:c587e0a9ca3db99bf5895f",
+        "android_client_info": {
+          "package_name": "com.harshit.registrationpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582596359950-clkiml4cr54l6u01d4ul4191blklh4s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACbrh4LZZdNaqYVQkVLkp4HTmhpha2ARk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582596359950-clkiml4cr54l6u01d4ul4191blklh4s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
